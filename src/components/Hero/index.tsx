@@ -13,7 +13,7 @@ const Hero = () => {
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               Find the Perfect School with{" "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                <span className="relative inline-block before:absolute before:bottom-1.5 before:left-0 before:-z-1 before:h-2 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
                   EduSearch
                 </span>
               </h1>
@@ -24,9 +24,7 @@ const Hero = () => {
                 standardized information, user reviews, and advanced comparison
                 tools to empower informed decisions.
               </p>
-
               <div className="mt-10">
-
                 <p className="mt-5 text-black dark:text-white">
                   Try for free no credit card required.
                 </p>

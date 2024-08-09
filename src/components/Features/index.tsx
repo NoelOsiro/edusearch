@@ -13,11 +13,12 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "SOLID FEATURES",
-              subtitle: "Core Features of Solid",
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam
-            ante in maximus.`,
+              title: "EduSearch FEATURES",
+              subtitle: "Key Features of Our Platform",
+              description: `EduSearch offers a comprehensive suite of tools designed to simplify
+              the school selection process in Kenya. Our platform ensures you have
+              all the information needed to make informed decisions about your
+              child's education.`,
             }}
           />
           {/* <!-- Section Title End --> */}
