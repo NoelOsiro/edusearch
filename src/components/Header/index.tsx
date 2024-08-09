@@ -39,17 +39,17 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src="/images/logo/logo-dark.png"
               alt="logo"
               width={119.03}
-              height={30}
+              height={20}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/logo-light.svg"
+              src="/images/logo/logo-light.png"
               alt="logo"
               width={119.03}
-              height={30}
+              height={20}
               className="w-full dark:hidden"
             />
           </a>
@@ -151,7 +151,7 @@ const Header = () => {
             </ul>
           </nav>
 
-          <div className="mt-7 ml-4 flex items-center gap-6 xl:mt-0">
+          <div className="mt-7 ml-6 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
 
           </div>

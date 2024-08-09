@@ -48,11 +48,8 @@ const menuData: Menu[] = [
     id: 2.3,
     title: "FAQs",
     newTab: false,
-    path: "/docs",
+    path: "/faqs",
   },
- 
-
-  
 ];
 
 export default menuData;
