@@ -16,7 +16,6 @@ const CTA = () => {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -29,12 +28,10 @@ const CTA = () => {
               className="animate_left md:w-[70%] lg:w-1/2"
             >
               <h2 className="mb-4 w-11/12 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle4">
-                Join With Us Today & Increase Your Productivity
+                Empower Your Learning Journey with EDUSEARCH
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                convallis tortor eros. Donec vitae tortor lacus. Phasellus
-                aliquam ante in maximus.
+                Join EDUSEARCH today to unlock a world of educational resources and tools designed to enhance your learning experience. Start exploring our platform to find the best educational solutions tailored to your needs.
               </p>
             </motion.div>
             <motion.div
@@ -43,7 +40,6 @@ const CTA = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -60,14 +56,14 @@ const CTA = () => {
                   width={299}
                   height={299}
                   src="/images/shape/shape-06.png"
-                  alt="Saly"
+                  alt="Learning Journey"
                   className="hidden xl:block"
                 />
                 <a
-                  href="signup.html"
+                  href="/signup"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
                 >
-                  Sign up free
+                  Get Started
                   <Image
                     width={20}
                     height={20}
