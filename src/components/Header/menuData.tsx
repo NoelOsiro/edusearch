@@ -14,67 +14,45 @@ const menuData: Menu[] = [
     path: "/#features",
   },
   {
-    id: 2.1,
-    title: "Blog",
-    newTab: false,
-    path: "/blog",
-  },
-  {
-    id: 2.3,
-    title: "Docs",
-    newTab: false,
-    path: "/docs",
-  },
-  {
     id: 3,
-    title: "Pages",
+    title: "Schools",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Primary Schools",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "High Schools",
         newTab: false,
         path: "/auth/signin",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "Universities",
         newTab: false,
         path: "/auth/signup",
       },
-      {
-        id: 35,
-        title: "Docs",
-        newTab: false,
-        path: "/docs",
-      },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
-      {
-        id: 36,
-        title: "404",
-        newTab: false,
-        path: "/error",
-      },
     ],
   },
-
   {
     id: 4,
-    title: "Support",
+    title: "Contacts",
     newTab: false,
     path: "/support",
   },
+  {
+    id: 2.3,
+    title: "FAQs",
+    newTab: false,
+    path: "/docs",
+  },
+ 
+
+  
 ];
 
 export default menuData;
